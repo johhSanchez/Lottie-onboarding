@@ -1,0 +1,58 @@
+.element {
+    width: 100%;
+    max-width: 360px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.app-mobile {
+    width: 360px;
+    height: 680px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.group-btn {
+    text-align: center;
+    display: none;
+}
+
+.group-btn button {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    font-size: 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    background: #ccc;
+    cursor: pointer;
+}
+
+.group-btn button.active {
+    background-color: #10d35f;
+}
+
+.group-text {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+.group-text .text {
+    display: none;
+}
+
+.group-text .text.show {
+    display: block;
+}
+
+.group-btn-only {
+    margin-top: 50px;
+    text-align: center;
+}
